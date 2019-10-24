@@ -181,7 +181,6 @@
 				</div>
 						  <!--/.Carousel Wrapper-->
 		</div>
-
 		<div class="but">
 			<ul>
 			<li><div class="button_cont" align="center"><a class="example_a" onclick="window.location.href = 'Controlleur/controller.php?action=doleance'" target="_blank" rel="nofollow noopener">Doléance</a></div></li>

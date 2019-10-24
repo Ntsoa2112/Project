@@ -1,5 +1,4 @@
 <?php
-
 	require_once("../Modele/Model.php");
 
 	if(!empty($_GET["action"])){
