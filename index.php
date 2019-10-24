@@ -12,7 +12,7 @@
 		<header>
 			<ul>
 				<img src="Public/img/logo.png" alt="rivo" id="logo">
-				<img src="Public/img/sesame.png" alt="rivo" id="sesame">
+				<img src="Public/img/sesame.png" width="185px" height="185px" alt="rivo" id="sesame">
 			  <li><a href="#" class="round green">M<span class="round">Mon</span></a></li>
 			  <li><a href="#" class="round red">E<span class="round">Emnprunt </span></a></li>
 				<li><a href="#" class="round yellow">S<span class="round">SESAME</span></a></li>
@@ -48,74 +48,74 @@
 		 ?>
 
 		<div id="inscrire" class="modal fade" role="dialog">
-		<div class="modal-dialog">
-		<div class="modal-content">
-		<div class="modal-header">
-		  <a class="close" data-dismiss="modal"></a>
-		  <h3>S'inscrire</h3>
-		</div>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					  <a class="close" data-dismiss="modal"></a>
+					  <h3>S'inscrire</h3>
+					</div>
 
-		<form id="contactForm" name="contact" role="form" action="Controlleur/controller.php?action=inscription" method="post">
-		  <div class="modal-body">
-		<div class="form-group">
-				  <label for="name">Nom</label>
-				  <input type="text" name="nom" class="form-control" required>
-			  </div>
-			  <div class="form-group">
-				  <label for="name">Prénom</label>
-				  <input type="text" name="prenom" class="form-control" required>
-			  </div>
-			  <div class="form-group">
-				  <label for="email">Mail</label>
-				  <input type="email" name="email" class="form-control" required>
-			  </div>
+					<form id="contactForm" name="contact" role="form" action="Controlleur/controller.php?action=inscription" method="post">
+						<div class="modal-body">
+							<div class="form-group">
+								  <label for="name">Nom</label>
+								  <input type="text" name="nom" class="form-control" required>
+							</div>
+						  <div class="form-group">
+							  <label for="name">Prénom</label>
+							  <input type="text" name="prenom" class="form-control" required>
+						  </div>
+						  <div class="form-group">
+							  <label for="email">Mail</label>
+							  <input type="email" name="email" class="form-control" required>
+						  </div>
 
-			  <div class="form-group half" >
-		  <label for="mention">Mention</label>
-			<select name="mention" >
-				  <option value="APS">APS</option>
-				  <option value="APL">APL</option>
-		   </select>
-			  </div>
-		<div class="form-group half" >
-		  <label for="dortoir">Numéro dortoir</label>
-			<select name="dortoir" >
+							<div class="form-group half" >
+							  <label for="mention">Mention</label>
+								<select name="mention" >
+								  <option value="APS">APS</option>
+								  <option value="APL">APL</option>
+						   	</select>
+							</div>
+							<div class="form-group half" >
+							  <label for="dortoir">Numéro dortoir</label>
+								<select name="dortoir" >
 
-					<?php
-					$i = 1;
-					for($i; $i<13; $i++){
-					  echo "<option> $i </option>";
-					}
-					 ?>
+										<?php
+										$i = 1;
+										for($i; $i<13; $i++){
+										  echo "<option> $i </option>";
+										}
+										 ?>
 
-				 <option value="D1">D1</option>
-				  <option value="D2">D3</option>
-				  <option value="D3">D3</option>
-				  <option value="D4">D5</option>
-				  <option value="D6">APS</option>
-				  <option value="APL">D6</option>
-				  <option value="D7">D7</option>
-				  <option value="D8">D8</option>
+									 <option value="D1">D1</option>
+									  <option value="D2">D3</option>
+									  <option value="D3">D3</option>
+									  <option value="D4">D5</option>
+									  <option value="D6">APS</option>
+									  <option value="APL">D6</option>
+									  <option value="D7">D7</option>
+									  <option value="D8">D8</option>
 
-		   </select>
-			  </div>
-		<div class="form-group">
-				  <label for="email">Mot de passe</label>
-				  <input type="password" name="mdp1" class="form-control" placeholder="4 caractére minimum" required>
-			  </div>
-		<div class="form-group">
-				  <label for="email">Confirmation mot de passe</label>
-				  <input type="password" name="mdp2" class="form-control" placeholder="4 caractére minimum" required>
-			  </div>
+							   </select>
+							</div>
+							<div class="form-group">
+							  <label for="email">Mot de passe</label>
+							  <input type="password" name="mdp1" class="form-control" placeholder="4 caractére minimum" required>
+						  </div>
+							<div class="form-group">
+							  <label for="email">Confirmation mot de passe</label>
+							  <input type="password" name="mdp2" class="form-control" placeholder="4 caractére minimum" required>
+							</div>
 
-		</div>
-		<div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  <input type="submit" class="btn btn-success" name="inscrire" id="submit" value="S'incrire">
-		</div>
-		</form>
-		</div>
-		</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <input type="submit" class="btn btn-success" name="inscrire" id="submit" value="S'incrire">
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 
 		<div class="corps">
@@ -189,13 +189,6 @@
 			<li><div class="button_cont" align="center"><a class="example_a" onclick="window.location.href = 'Controlleur/controller.php?action=emprunter'" target="_blank" rel="nofollow noopener">Rendre</a></div></li>
 			</ul>
 		</div>
-
-
-
-
-
-
-
 				<footer id="footer" class="footer-1">
 					<div class="main-footer widgets-dark typo-light">
 						<div class="container">
@@ -219,13 +212,7 @@
 									<h5 class="widget-title">Programme SESAME<span></span></h5>
 									<p>Un programme venant de l'association européenne IECD ,qui octrye une bourse d'études supérieure à des bacheliers malgaches défavorisées. </p>
 								</div>
-
-
 							</div>
-
-
-
-
 							<div class="col-xs-12 col-sm-6 col-md-3">
 								<div class="widget no-box">
 									<h5 class="widget-title">Addresse<span></span></h5>
@@ -233,10 +220,8 @@
 									  ANTANANARIVO <br>
 									  BP 112 MAGASCAR
 									  </p>
-									  </div>
-									  </div>
-
-
+								</div>
+							</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-3">
 
@@ -244,7 +229,7 @@
 						<h5 class="widget-title">Nous contacter:<span></span></h5>
 						<ul class="social-footer2">
 
-									<li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFP
+									<li class=""><a href="https://www.facebook.com/rtrivotiana.rajaonarivony" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFP
 											pFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a8
 											9+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jk
 											KmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzP
@@ -271,23 +256,12 @@
 											hfpkv4OM4iCewvVj7FV4v9x7By9hcufvbubbFMz3WtuEDHMJ9VRbX4ZXK3ydxOzb0SM20vfF45Wh3rH7EA3WrN3F1EWwt3sZD9UOTDT4sx3dtK9cIdmAvXmroLqof2FjxncK71bubTeU
 											F3ITnsL/tILCmSubMIDDZKJ0XVGk8XWvD5aHgctyBS3B/dajWE0j36HMDLm7EKl1TSbMJnKy47zqX0WdhvF0A/k/yzwBDgQIl79/sVgAAAABJRU5ErkJggg=="></a></li>
 						</ul>
-
-
-
 					</div>
 
 					<div class="footy">© 2019 Copyright:
 							<a href="https://sesame.com"> https://www.Sesame.org</a>
 						 </div>
-
-
 				</footer>
-
-
-
-
-
-
 		<script src="Public/Js/jquery.min.js"></script>
 		<script src="Public/Js/bootstrap.min.js"></script>
 		<script src="Public/Js/min.js"></script>
