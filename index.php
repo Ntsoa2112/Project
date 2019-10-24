@@ -5,20 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="Public/Css/bootstrap.min.css">
 		<link rel="stylesheet" href="Public/Css/style.css">
-		<title>Stagiaire</title>
+		<title>Sesame | Emprunt</title>
 	</head>
 
 	<body>
 		<header>
 			<ul>
 				<img src="Public/img/logo.png" alt="rivo" id="logo">
-				<img src="Public/img/sesame.png" alt="rivo" id="sesame">
-			  <li><a href="#" class="round green">M<span class="round">Mon</span></a></li>
-			  <li><a href="#" class="round red">E<span class="round">Emnprunt </span></a></li>
+				<!--<img src="Public/img/sesame.png" alt="Sesame" style="height:200px; width:200px;" id="sesame">-->
+			  	<li><a href="#" class="round green">M<span class="round">Mon</span></a></li>
+			  	<li><a href="#" class="round red">E<span class="round">Emnprunt </span></a></li>
 				<li><a href="#" class="round yellow">S<span class="round">SESAME</span></a></li>
 			</ul>
 		</header>
-		<span><button type="button" data-toggle="modal" data-target="#inscrire"  class="btn btn-primary">S'inscrire</button></span>
+		<span><button type="button" data-toggle="modal" data-target="#inscrire"  class="btn btn-primary" style="margin-bottom:2%; border-radius:20px;">S'inscrire</button></span>
 
 		<?php
 		if(!empty($_GET["action"])){
@@ -52,7 +52,7 @@
 		<div class="modal-content">
 		<div class="modal-header">
 		  <a class="close" data-dismiss="modal"></a>
-		  <h3>S'inscrire</h3>
+		  <h3 style="text-align:center !important; color:white; padding-left:0%;">S'inscrire</h3>
 		</div>
 
 		<form id="contactForm" name="contact" role="form" action="Controlleur/controller.php?action=inscription" method="post">
@@ -110,7 +110,7 @@
 
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
 			  <input type="submit" class="btn btn-success" name="inscrire" id="submit" value="S'incrire">
 		</div>
 		</form>
@@ -136,7 +136,7 @@
 					<div class="carousel-inner" role="listbox">
 							<div class="carousel-item active">
 								<div class="view">
-									<img class="d-block w-100" src="Public/img/img1.jpg" alt="First slide">
+									<img class="d-block w-100" src="Public/img/img1.jpg" alt="">
 									 <div class="mask rgba-black-light"></div>
 								</div>
 								<div class="carousel-caption">
@@ -147,7 +147,7 @@
 							<div class="carousel-item">
 									<!--Mask color-->
 								<div class="view">
-									<img class="d-block w-100" src="Public/img/img3.jpg" alt="Second slide">
+									<img class="d-block w-100" src="Public/img/img3.jpg" alt="">
 									<div class="mask rgba-black-light"></div>
 								</div>
 								<div class="carousel-caption">
@@ -158,7 +158,7 @@
 							<div class="carousel-item">
 								<!--Mask color-->
 								<div class="view">
-									<img class="d-block w-100" src="Public/img/img4.jpg" alt="Third slide">
+									<img class="d-block w-100" src="Public/img/img4.jpg" alt="">
 									<div class="mask rgba-black-light"></div>
 								</div>
 								<div class="carousel-caption">
@@ -169,10 +169,10 @@
 					</div>
 							<!--/.Slides-->
 							<!--Controls-->
-						<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
+							<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
 							<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
 								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 								  <span class="sr-only">Next</span>
@@ -184,9 +184,9 @@
 
 		<div class="but">
 			<ul>
-			<li><div class="button_cont" align="center"><a class="example_a" onclick="window.location.href = 'Controlleur/controller.php?action=doleance'" target="_blank" rel="nofollow noopener">Doléance</a></div></li>
-			<li><div class="button_cont" align="center"><a class="example_a" onclick="window.location.href = 'Controlleur/controller.php?action=rendre'" target="_blank" rel="nofollow noopener">Emprunter</a></div></li>
-			<li><div class="button_cont" align="center"><a class="example_a" onclick="window.location.href = 'Controlleur/controller.php?action=emprunter'" target="_blank" rel="nofollow noopener">Rendre</a></div></li>
+			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;" onclick="window.location.href = 'Controlleur/controller.php?action=doleance'" target="_blank" rel="nofollow noopener">Doléance</a></div></li>
+			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;" onclick="window.location.href = 'Controlleur/controller.php?action=rendre'" target="_blank" rel="nofollow noopener">Emprunter</a></div></li>
+			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;"  cursor:pointer;onclick="window.location.href = 'Controlleur/controller.php?action=emprunter'" target="_blank" rel="nofollow noopener">Rendre</a></div></li>
 			</ul>
 		</div>
 
@@ -203,7 +203,7 @@
 								<div class="col-xs-12 col-sm-6 col-md-3">
 									<div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
 										   <figure>
-												<img width="210px;" height="200px;" src="Public/img/imgl.JPG" alt="doctor-2">
+												<img width="200px;" height="250px;" src="Public/img/imgl.JPG" alt="doctor-2">
 										   </figure>
 											<div class="text-content">
 												<h5>Web designer</h5>
