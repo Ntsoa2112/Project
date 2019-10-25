@@ -6,8 +6,16 @@
 		    <script src="../Public/Js/jquery.min.js"></script>
 		    <script src="../Public/Boostrap/bootstrap.min.js"></script>
 			  <link href="style.css" rel="stylesheet"  type="text/css">
-			  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-			  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+			  <link rel="stylesheet" href="../Public/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../Public/css/et-lineicons.css">
+	<link rel="stylesheet" href="../Public/css/font-awesome.css" />
+	<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
+	<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="../Public/css/aos.css" /> 
+	<link rel="stylesheet" href="../Public/css/style.css" /> 	
+	<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
+
 			  <link href="style.css" rel="stylesheet"  type="text/css">
 			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -15,13 +23,26 @@
 			  <title>Rendre</title>
 	  </head>
 
-  <body>
-		<div class="button">
-			<span id="contact"><button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#contact-modal1">Clé</button></span>
-			<span id="contact"><button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#contact-modal2">Fer à repasser</button></span>
-			<span id="contact"><button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#contact-modal3">Guitare</button></span>
-			<span id="contact"><button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#contact-modal4">Ballon</button></span>
-			<span id="contact"><button type="button" class="btn btn-info btn" data-toggle="modal" data-target="#contact-modal5">Boules</button></span>
+  <body class="bodaction">
+
+  <section class="contact section-padding" data-scroll-index="7">
+            <div class="container">
+                <div class="row">
+                    <div class="section-head-green col-md-12">
+                        <h4 style="color:#fff !important;">Rendre</h4>
+                        <p class="text-center w-responsive mx-auto mb-5 light">Choisissez les matériels que vous vouliez rendre</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		
+		<div class="button" style="text-align:center; margin-top:-10%;">
+			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal1">Clé</button></span>
+			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal2">Fer à repasser</button></span>
+			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal3">Guitare</button></span>
+			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal4">Ballon</button></span>
+			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal5">Boules</button></span>
 		</div>
 
 		<?php

@@ -39,6 +39,12 @@ body {
     overflow-x: hidden !important;
 }
 
+.bodaction{
+    background-image: url("../img/eclipse.jpg") !important;
+    background-repeat: unset;
+    background-size: cover;
+}
+
 
 /* Typography */
 
@@ -534,8 +540,8 @@ h6 {
 }
 
 .buton-bg:hover {
-    background: #fff;
-    color: #fa434a;
+    background: linear-gradient(to top, rgb(252, 87, 42) 0%, rgb(249,48, 105) 100%);
+    color: #fff;
 }
 .text-shadow{
     box-shadow: 2px 7px 14px black;
