@@ -12,7 +12,7 @@
 		<header>
 			<ul>
 				<img src="Public/img/logo.png" alt="rivo" id="logo">
-				<!--<img src="Public/img/sesame.png" alt="Sesame" style="height:200px; width:200px;" id="sesame">-->
+				  <img src="Public/img/sesame.png" alt="Sesame" style="height:200px; width:200px;" id="sesame">
 			  	<li><a href="#" class="round green">M<span class="round">Mon</span></a></li>
 			  	<li><a href="#" class="round red">E<span class="round">Emnprunt </span></a></li>
 				<li><a href="#" class="round yellow">S<span class="round">SESAME</span></a></li>
@@ -119,7 +119,7 @@
 		</div>
 
 		<div class="corps">
-			<img src="Public/img/banier.jpg" alt="rivo" class="ty">
+			<img src="Public/img/img3.JPG" alt="rivo" class="ty">
 		</div>
 
 		<div class="gallery">
@@ -184,8 +184,8 @@
 		<div class="but">
 			<ul>
 			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;" onclick="window.location.href = 'Controlleur/controller.php?action=doleance'" target="_blank" rel="nofollow noopener">Doléance</a></div></li>
-			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;" onclick="window.location.href = 'Controlleur/controller.php?action=rendre'" target="_blank" rel="nofollow noopener">Emprunter</a></div></li>
-			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;"  cursor:pointer;onclick="window.location.href = 'Controlleur/controller.php?action=emprunter'" target="_blank" rel="nofollow noopener">Rendre</a></div></li>
+			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;" onclick="window.location.href = 'Controlleur/controller.php?action=emprunter'" target="_blank" rel="nofollow noopener">Emprunter</a></div></li>
+			<li><div class="button_cont" align="center"><a class="example_a" style="text-transform:none; font-size: 15px; cursor:pointer;"  onclick="window.location.href = 'Controlleur/controller.php?action=rendre'" target="_blank" rel="nofollow noopener">Rendre</a></div></li>
 			</ul>
 		</div>
 				<footer id="footer" class="footer-1">

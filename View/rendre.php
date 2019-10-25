@@ -2,23 +2,24 @@
 <html lang="fr" dir="ltr">
 	  <head>
 			  <meta charset="utf-8">
-				<link rel="stylesheet" href="../Public/Boostrap/bootstrap.min.css">
 		    <script src="../Public/Js/jquery.min.js"></script>
 		    <script src="../Public/Boostrap/bootstrap.min.js"></script>
 			  <link href="style.css" rel="stylesheet"  type="text/css">
 			  <link rel="stylesheet" href="../Public/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="../Public/css/et-lineicons.css">
-	<link rel="stylesheet" href="../Public/css/font-awesome.css" />
-	<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
-	<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
-	<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
-	<link rel="stylesheet" href="../Public/css/aos.css" /> 
-	<link rel="stylesheet" href="../Public/css/style.css" /> 	
-	<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
-
+				<link rel="stylesheet" href="../Public/css/et-lineicons.css">
+				<link rel="stylesheet" href="../Public/css/font-awesome.css" />
+				<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
+				<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
+				<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
+				<link rel="stylesheet" href="../Public/css/aos.css" />
+				<link rel="stylesheet" href="../Public/css/style.css" />
+				<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 			  <link href="style.css" rel="stylesheet"  type="text/css">
-			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 			  <script type="text/javascript" src="js/contact.js"></script>
 			  <title>Rendre</title>
 	  </head>
@@ -30,13 +31,13 @@
                 <div class="row">
                     <div class="section-head-green col-md-12">
                         <h4 style="color:#fff !important;">Rendre</h4>
-                        <p class="text-center w-responsive mx-auto mb-5 light">Choisissez les matériels que vous vouliez rendre</p>
+                        <p class="text-center w-responsive mx-auto mb-5 light" style="color:#fff !important;">Choisissez les matériels que vous vouliez rendre</p>
                     </div>
                 </div>
             </div>
         </section>
-		
-		
+
+
 		<div class="button" style="text-align:center; margin-top:-10%;">
 			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal1">Clé</button></span>
 			<span id="contact"><button type="button" class="buton buton-bg" style="cursor:pointer; font-size:25px; border-radius:50px;" data-toggle="modal" data-target="#contact-modal2">Fer à repasser</button></span>

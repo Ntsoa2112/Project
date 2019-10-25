@@ -1,4 +1,5 @@
 <?php
+
 	require_once("../Modele/Model.php");
 
 	if(!empty($_GET["action"])){
@@ -104,6 +105,10 @@
 					else{
 						header("location:../View/rendre.php?action=erreur_rendre&type=$type&correspondance=$correspondance");
 					}
+				}
+				elseif ($action == "doleance_message") {
+					$subject = $_POST["subject"];
+					$message = $_POST["message"];
 				}
 			}
 			else{

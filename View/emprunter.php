@@ -3,18 +3,20 @@
 	  <head>
 			  <meta charset="utf-8">
 			  <link rel="stylesheet" href="../Public/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="../Public/css/et-lineicons.css">
-	<link rel="stylesheet" href="../Public/css/font-awesome.css" />
-	<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
-	<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
-	<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
-	<link rel="stylesheet" href="../Public/css/aos.css" /> 
-	<link rel="stylesheet" href="../Public/css/style.css" /> 	
-	<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
-			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="../Public/css/et-lineicons.css">
+				<link rel="stylesheet" href="../Public/css/font-awesome.css" />
+				<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
+				<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
+				<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
+				<link rel="stylesheet" href="../Public/css/aos.css" />
+				<link rel="stylesheet" href="../Public/css/style.css" />
+				<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
 			  <script type="text/javascript" src="js/contact.js"></script>
 			  <link rel="stylesheet" href="Public/Css/style.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 			  <title>Emprunter</title>
 	  </head>
   <body class="bodaction">
@@ -24,7 +26,7 @@
                 <div class="row">
                     <div class="section-head-green col-md-12">
                         <h4 style="color:#fff !important;">Emprunt</h4>
-                        <p class="text-center w-responsive mx-auto mb-5 light">Choisissez les matériels que vous vouliez emprunter</p>
+                        <p class="text-center w-responsive mx-auto mb-5 light" style="color:#fff !important;"><strong>Choisissez les matériels que vous vouliez emprunter</strong></p>
                     </div>
                 </div>
             </div>
@@ -293,7 +295,5 @@
 	    		</div>
 	    	</div>
 		</div>
-		
-		
   </body>
 </html>

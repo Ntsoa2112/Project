@@ -8,15 +8,15 @@
 	<link rel="stylesheet" href="../Public/css/magnific-popup.css" />
 	<link rel="stylesheet" href="../Public/css/owl.carousel.min.css" />
 	<link rel="stylesheet" href="../Public/css/owl.theme.default.min.css" />
-	<link rel="stylesheet" href="../Public/css/aos.css" /> 
-	<link rel="stylesheet" href="../Public/css/style.css" /> 	
-	<link rel="stylesheet" href="../Public/bootstrap/css/style.css">	
-    
+	<link rel="stylesheet" href="../Public/css/aos.css" />
+	<link rel="stylesheet" href="../Public/css/style.css" />
+	<link rel="stylesheet" href="../Public/bootstrap/css/style.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
-    
+
     <title>Doléance</title>
   </head>
   <body>
@@ -54,17 +54,17 @@
                                 </div>
                             </div>
                         </div>
-                        <form class="form" id="contact-form">
+                        <form class="form" id="contact-form" action="../Controlleur/controller.php?action=doleance_message" method="POST">
                             <div class="messages"></div>
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_name" type="text" name="name" placeholder="Name" required="required"> </div>
+                                            <input id="form_name" type="text" name="prenom" placeholder="Prénom" required="required"> </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_email" type="email" name="email" placeholder="Email" required="required"> </div>
+                                            <input id="form_email" type="text" name="numero" placeholder="Numéro" required="required"> </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
@@ -75,8 +75,12 @@
                                             <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
                                         </div>
                                     </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="password" name="mdp" placeholder="Mot de passe"> </div>
+                                    </div>
                                     <div class="col-md-12 text-center">
-                                        <span class="buton buton-bg">Envoyer</span>
+                                        	<button type="submit" class="buton buton-bg" name="envoyer_message">Envoyer</button>
                                     </div>
                                 </div>
                             </div>
